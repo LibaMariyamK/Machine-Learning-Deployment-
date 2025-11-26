@@ -1,0 +1,33 @@
+# Ignore virtual environment
+venv/
+ENV/
+env/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment/secret files
+*.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE folders
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Model binaries or large files (optional)
+models/
+*.h5
+*.pkl
+*.joblib
