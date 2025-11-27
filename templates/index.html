@@ -98,7 +98,10 @@
         </form>
 
         
-        <h3>{{ prediction }}</h3>
+        {% if prediction %}
+            <h3>{{ prediction }}</h3>
+        {% endif %}
+
         
     </div>
 
